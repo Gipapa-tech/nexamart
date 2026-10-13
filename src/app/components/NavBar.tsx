@@ -4,7 +4,7 @@ const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/products', label: 'Products' },
   { href: '/seller', label: 'Sell' },
-  { href: '/cart', label: 'Cart' },
+  { href: '/checkout', label: 'Checkout' },
 ]
 
 export default function NavBar() {
@@ -32,7 +32,7 @@ export default function NavBar() {
           <Link href="/cart" className="rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-700">
             Cart (2)
           </Link>
-          <Link href="/seller" className="rounded-full border border-slate-200 px-4 py-2 text-sm font-medium text-slate-700 transition hover:border-slate-300 hover:bg-slate-50">
+          <Link href="/login" className="rounded-full border border-slate-200 px-4 py-2 text-sm font-medium text-slate-700 transition hover:border-slate-300 hover:bg-slate-50">
             Log in
           </Link>
         </div>
